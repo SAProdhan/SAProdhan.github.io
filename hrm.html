@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=10; IE=11; IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Web Developer portfolio website.">
+    <meta name="author" content="Sakeef Ameer Prodhan">
+
+    <title>An Static website | Web Developer</title>
+
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" /><!-- Favicon -->
+    <link rel="icon" href="images/icon.ico" type="image/x-icon" /><!-- Favicon -->
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" /><!-- reset for browsers -->
+    <link rel="stylesheet" media="screen" href="css/font-awesome.min.css" /><!-- font-awesome icons stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" /><!-- main stylesheet -->
+    <link rel="stylesheet" media="screen" href="css/animations.css" /><!-- animations stylesheet -->
+
+    <link rel="stylesheet" media="screen and (max-width: 340px)" href="css/media_extra_small.css" />
+    <!-- mobile stylesheet -->
+    <link rel="stylesheet" media="screen and (min-width: 340px) and (max-width: 480px)" href="css/media_small.css" />
+    <!-- mobile stylesheet -->
+    <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 1023px)" href="css/media_medium.css" />
+    <!-- mobile stylesheet -->
+    <link rel="stylesheet" media="screen and (min-width: 1024px) and (max-width: 1100px)" href="css/media_large.css" />
+    <!-- mobile stylesheet -->
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
+    <!-- custom typeface -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
+    <!-- custom typeface -->
+    
+</head>
+
+<body id="body-index">
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="#header" class="nav__logo__link"><img class="nav__logo" src="images/logo.png" alt="logo"></a>
+        <span class="hamburger__name">menu</span>
+        <svg width="35px" height="35px" class="nav__hamburger">
+            <path d="M 5 5 L 33 5" class="hamburger"></path>
+            <path d="M 5 15 L 33 15" class="hamburger"></path>
+            <path d="M 5 25 L 33 25" class="hamburger"></path>
+        </svg>
+    </nav>
+    <div class="nav-menu">
+        <div class="nav-menu__cross">
+            <svg width="43px" height="35px">
+                <path d="M 5 5 L 30 29" class="nav-menu__cross-line"></path>
+                <path d="M 5 29 L 30 5" class="nav-menu__cross-line"></path>
+            </svg>
+        </div>
+        <ul class="nav-menu__list">
+            <li class="nav-menu__list-item">
+                <a href="index.html#header" class="nav-menu__link">Home</a>
+            </li>
+            <li class="nav-menu__list-item">
+                <a href="index.html#about" class="nav-menu__link">About</a>
+            </li>
+            <li class="nav-menu__list-item">
+                <a href="index.html#projects" class="nav-menu__link">Projects</a>
+            </li>
+            <li class="nav-menu__list-item">
+                <a href="index.html#contact" class="nav-menu__link">Contact</a>
+            </li>
+        </ul>
+        <hr class="nav-menu__separator">
+        <p class="nav-menu__text">Full stack web developer based on Dhaka, Bangladesh.</p>
+        <p class="nav-menu__email">
+            <a href="mailto:spameer.bd@gmail.com" class="nav-menu__link--email">spameer.bd@gmail.com</a>
+        </p>
+        <div class="nav-menu__social-btn">
+            <a href="https://www.linkedin.com/in/sakeef-a-62464296/" target="_blank"><span
+                    class="fa fa-linkedin-square fa-2x"></span></a>
+        </div>
+    </div>
+    <!-- Main content -->
+    <main class="main-container">    
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="portfolio">
+            <h1 class="portfolio__title">HRM Software(Attendance and Payroll)<span class="portfolio__title__dot"></span></h1>
+            <h3 class="portfolio__description">Laravel based hrm Software for calculating salary from attendance with leave. Also can create schedule and shift. Can get attendance from some ZKtecho device also.</h3>
+
+            <div class="portfolio__items-container">
+                <!-- START portfolio__item -->
+                <div class="portfolio__item" data-name="rawphp">
+                    <a href="images/hrm1.png">
+                        <img src="images/hrm1.png" class="portfolio__item__thumbnail" alt="wikipedia viewer app">
+                        <h2 class="portfolio__item__info">Admin Panel Dashboard</h2>
+                        <div class="portfolio__item__hover">
+                            <h2 class="portfolio__item__hover__title">Dashboard<span
+                                class="portfolio__title__dot title__dot--white"></span>
+                            </h2>
+                            <p class="portfolio__item__hover__description">Dashboard for admin and user</p>
+                          </div>
+                    </a>
+                </div>
+                <!-- END portfolio__item -->
+
+                <!-- START portfolio__item -->
+                <div class="portfolio__item" data-name="rawphp">
+                    <a href="images/hrm2.png">
+                        <img src="images/hrm2.png" class="portfolio__item__thumbnail" alt="wikipedia viewer app">
+                        <h2 class="portfolio__item__info">Attendance details Page</h2>
+                        <div class="portfolio__item__hover">
+                            <h2 class="portfolio__item__hover__title">Attendance<span
+                                class="portfolio__title__dot title__dot--white"></span>
+                            </h2>
+                            <p class="portfolio__item__hover__description">Veiw or search attendance with pdf generator.</p>
+                          </div>
+                    </a>
+                </div>
+                <!-- END portfolio__item -->
+
+                <!-- START portfolio__item -->
+                <div class="portfolio__item" data-name="rawphp">
+                    <a href="images/hrm3.png">
+                        <img src="images/hrm3.png" class="portfolio__item__thumbnail" alt="wikipedia viewer app">
+                        <h2 class="portfolio__item__info">Job opening Page</h2>
+                        <div class="portfolio__item__hover">
+                            <h2 class="portfolio__item__hover__title">Job<span
+                                class="portfolio__title__dot title__dot--white"></span>
+                            </h2>
+                            <p class="portfolio__item__hover__description">Create job and check applications.</p>
+                          </div>
+                    </a>
+                </div>
+                <!-- END portfolio__item -->
+
+                <!-- START portfolio__item -->
+                <div class="portfolio__item" data-name="rawphp">
+                    <a href="images/hrm4.png">
+                        <img src="images/hrm4.png" class="portfolio__item__thumbnail" alt="wikipedia viewer app">
+                        <h2 class="portfolio__item__info">Employee Leave details Page</h2>
+                        <div class="portfolio__item__hover">
+                            <h2 class="portfolio__item__hover__title">Leave details<span
+                                class="portfolio__title__dot title__dot--white"></span>
+                            </h2>
+                            <p class="portfolio__item__hover__description">Manage employee leave application.</p>
+                          </div>
+                    </a>
+                </div>
+                <!-- END portfolio__item -->
+
+                <!-- START portfolio__item -->
+                <div class="portfolio__item" data-name="rawphp">
+                    <a href="images/hrm5.png">
+                        <img src="images/hrm5.png" class="portfolio__item__thumbnail" alt="wikipedia viewer app">
+                        <h2 class="portfolio__item__info">Pay slip Page</h2>
+                        <div class="portfolio__item__hover">
+                            <h2 class="portfolio__item__hover__title">Pay Slip<span
+                                class="portfolio__title__dot title__dot--white"></span>
+                            </h2>
+                            <p class="portfolio__item__hover__description">Generate pay slip according to attendance.</p>
+                          </div>
+                    </a>
+                </div>
+                <!-- END portfolio__item -->
+
+                <!-- START portfolio__item -->
+                <div class="portfolio__item" data-name="rawphp">
+                    <a href="images/hrm6.png">
+                        <img src="images/hrm6.png" class="portfolio__item__thumbnail" alt="wikipedia viewer app">
+                        <h2 class="portfolio__item__info">System settings Page</h2>
+                        <div class="portfolio__item__hover">
+                            <h2 class="portfolio__item__hover__title">System settings<span
+                                class="portfolio__title__dot title__dot--white"></span>
+                            </h2>
+                            <p class="portfolio__item__hover__description">Set your office time, attendance device, leave and expence type etc.</p>
+                          </div>
+                    </a>
+                </div>
+                <!-- END portfolio__item -->
+            </div>
+            <div class="tools">
+                <h3>Features:</h3>
+                <ul>
+                    <li style="list-style-type:disc;">User authentication</li>
+                    <li style="list-style-type:disc;">Forget password token</li>
+                    <li style="list-style-type:disc;">Shift and Schedule</li>
+                    <li style="list-style-type:disc;">Create job and view application</li>
+                    <li style="list-style-type:disc;">Award</li>
+                    <li style="list-style-type:disc;">Payroll</li>
+                    <li style="list-style-type:disc;">Leave</li>
+                    <li style="list-style-type:disc;">Expence</li>
+                    <li style="list-style-type:disc;">Attendance report</li>
+                </ul>
+            </div>
+            <div class="tools">
+                <h3>Tools or technologies:</h3>
+                <ul>
+                    <li style="list-style-type:disc;">Laravel 8</li>
+                    <li style="list-style-type:disc;">Bootstrap</li>
+                    <li style="list-style-type:disc;">HTML</li>
+                    <li style="list-style-type:disc;">CSS</li>
+                    <li style="list-style-type:disc;">JavaScript</li>
+                    <li style="list-style-type:disc;">jQuery</li>
+                    <li style="list-style-type:disc;">MySql</li>
+                </ul>
+            </div>
+            <div class="tools">
+                <h3>How to install:</h3>
+                <ul>
+                    <li style="list-style-type:disc;">Download the zip file from github<a href="https://github.com/SAProdhan/hrm" style="color: crimson;"> click here.</a></li>
+                    <li style="list-style-type:disc;">Unzip it in your server public folder</li>
+                    <li style="list-style-type:disc;">Export the database</li>
+                </ul>
+                <!-- <h5>Live demo: <a href="http://sakeef.ezyro.com/" style="color: crimson;"> click here.</a></h5> -->
+            </div>
+        </section>
+
+      
+        <!-- Contact -->
+        <section id="contact" class="contact">
+            <div class="contact__envelope">
+                <h1 class="contact__title title--white">Get in touch<span
+                        class="contact__title__dot title__dot--white"></span>
+                </h1>
+                <h2 class="contact__description">You can reach me via email or find me on social networks.<br> I would
+                    love to
+                    hear from you!</h2>
+                <a class="contact__link" href="mailto:spameer.bd@gmail.com">spameer.bd@gmail.com</a>
+                <div class="contact__social-btn__container">       
+                    <a href="https://www.linkedin.com/in/sakeef-a-62464296/" target="_blank"
+                        class="contact__btn__link">
+                        <span class="fa fa-linkedin-square fa-2x contact__fa-btn"></span>
+                        <div class="contact__social-btn"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__info__container">
+                <h2 class="footer__copyright">&copy; Sakeef ameer Prodhan</h2>
+                <!-- footer navigation -->
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__list-item">
+                        <a href="index.html#about" class="footer-menu__link">About</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="index.html#projects" class="footer-menu__link">Projects</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="index.html#contact" class="footer-menu__link">Contact</a>
+                    </li>
+                </ul>
+                <!-- footer social buttons -->
+                <div class="footer__social-btn">
+                    <a href="https://www.linkedin.com/in/sakeef-a-62464296/" target="_blank"><span
+                            class="fa fa-linkedin-square fa-2x"></span></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script><!-- jQuery -->
+    <script src="js/inert.min.js"></script>
+    <!--inert js-->
+    <!-- <script src="js/scripts.min.js"></script> -->
+    <script src="js/scripts.js"></script><!-- js scripts-->
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-29336846-8', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</body>
+
+</html>
